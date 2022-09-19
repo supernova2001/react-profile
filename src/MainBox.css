@@ -1,0 +1,49 @@
+.introduction{
+    padding-top: 20%;
+    padding-left: 12%;
+    float: left;
+}
+.heading{
+    font-family: Poppins;
+    font-size: 60px;
+}
+.self-intro{
+    padding-top: 12px;
+    font-size: 17px;
+}
+.project-links{
+    float: right;
+    margin-top: 17%;
+    padding-left: 15%;
+    margin-right: 23%;
+}
+.instagram,.facebook,.twitter,.github,.mail{
+    float: right;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+}
+.project-title{
+    font-size: 25px;
+    font-family: Poppins;
+}
+.social-icons{
+    margin-top: 30px;
+    margin-right: 60px;
+}
+#project-1 a,#project-2 a,#project-3 a,#project-4 a{
+    text-decoration: none;
+    color: green;
+}
+#project-1 a,#project-2 a,#project-3 a,#project-4 a:hover{
+    text-decoration: none;
+}
+.instagram a,.facebook a,.twitter a,.github a,.mail a{
+    text-decoration: none;
+    color: green;
+}
+.toggle{
+    display: table;
+    margin: auto;
+    padding-top: 12px;
+}
