@@ -1,6 +1,6 @@
 .introduction{
     padding-top: 20%;
-    padding-left: 12%;
+    padding-left: 9%;
     float: left;
 }
 .heading{
@@ -13,8 +13,8 @@
 }
 .project-links{
     float: right;
-    margin-top: 17%;
     padding-left: 15%;
+    padding-top: 18%;
     margin-right: 23%;
 }
 .instagram,.facebook,.twitter,.github,.mail{
@@ -46,4 +46,24 @@
     display: table;
     margin: auto;
     padding-top: 12px;
+}
+.resume{
+    float: left;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+.resume-button{
+    background-color: transparent;
+}
+.resume-button a{
+    color: green;
+    text-decoration: none;
+}
+.link{
+    color: green;
+    text-decoration: none;
+}
+.link:hover{
+    color: white;
+    text-decoration: none;
 }

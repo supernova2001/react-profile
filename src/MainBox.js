@@ -12,6 +12,7 @@ import PersonIcon from "@material-ui/icons/Person";
 import DeleteIcon from "@material-ui/icons/Delete";
 import DarkModeToggle from "react-dark-mode-toggle";
 import { DarkThemeContext } from './DarkThemeContext';
+import Button from 'react-bootstrap/Button';
 
 function MainBox(){
   const { turnOn, setTurnOn, mainColor } = useContext(DarkThemeContext);
@@ -28,6 +29,7 @@ function MainBox(){
        <h4 class="twitter"><Tooltip title="Twitter"><a href="https://twitter.com/breadbutterrr"><FaTwitter /></a></Tooltip></h4>      
         <h4 class="github"><Tooltip title="Github"><a href="https://github.com/supernova2001"><FaGithub /></a></Tooltip></h4>
         <h4 class="mail"><Tooltip title="Email"><a href="#"><FaEnvelope /></a></Tooltip></h4>
+        <h4 class="resume"><Button class="resume-button" size="sm" variant='outline-success'><a href="/Users/janakiram.sharma/Desktop/Profile/myprofile/src/Janakiram_Resume.pdf" class="link" download="Janakiram_Sharma_Resume">RESUME</a></Button></h4>
         </div>
       </div>
       <div class="introduction" style={{ color: mainColor.txt }}>
